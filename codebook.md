@@ -8,10 +8,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Transformations
 1.merge train and test data
-2.associate colomn description basing on  features.txt  
+2.associate colomn description basing on features.txt
 3.subset data and keep only mean and standard deviation measurement refering to the colomn names
-4.clean colomn names : capital leters for Mean and Std, remove special characters as ( ' -
-5.associate IDs of activities by merging  test/y_test.txt  and  train/y_train.txt  
+4.clean colomn names: capital leters for Mean and Std, remove special characters as ( ' -
+5.associate IDs of activities by merging  test/Y_test.txt  and  train/Y_train.txt
 6.read  activity_labels.txt  to associate for each activity ID an activity label
 7.merge  test/subject_test.txt  and  train/subject_train.txt  to associate a subject ID for each measurement
 8.reshape data to calculate the average of each variable for each activity and each subject
